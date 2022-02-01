@@ -67,9 +67,9 @@ void Game_win() {
   //if (radius>=500) {
     background(0);
     fill(255);
-    textSize(250);
+    textSize(350);
     textAlign(CENTER);
-    text("U WIN!!!!", width/2, height/2);
+    text("WOW!!!!", width/2, height/2);
     WOW.play();
     //WOW = new SoundFile(this, "WOW Anime.mp3");
     noLoop();
@@ -80,9 +80,9 @@ void Game_lose() {
   //if (radius>=500) {
     background(255);
     fill(0);
-    textSize(250);
+    textSize(350);
     textAlign(CENTER);
-    text("U LOSE!!!!", width/2, height/2);
+    text("NANI!!!!", width/2, height/2);
     Omae.play();
     //omae = new SoundFile(this, "omae_nani.mp3");
     noLoop();
